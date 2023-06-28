@@ -1,0 +1,6 @@
+com\cts\userservice\model\UserDetails.class
+com\cts\userservice\repository\UserRepository.class
+com\cts\userservice\service\UserDetailsService.class
+com\cts\userservice\controller\UserController.class
+com\cts\userservice\service\UserDetailsServiceImpl.class
+com\cts\userservice\UserServiceApplication.class

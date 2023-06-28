@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cts.userservice.UserServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.576 s <<< FAILURE! - in com.cts.userservice.UserServiceApplicationTests
+contextLoads  Time elapsed: 0.038 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.boot.context.config.InvalidConfigDataPropertyException: Property 'spring.profiles.active' imported from location 'class path resource [application-docker.properties]' is invalid in a profile specific resource [origin: class path resource [application-docker.properties] - 1:24]
+
